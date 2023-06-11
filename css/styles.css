@@ -9,7 +9,7 @@ p {
 }
 @font-face {
     font-family: OldFace;
-    src: url(src/font.otf);
+    src: url(src/oldface.otf);
 }
 table, th, td {
     border: 1px solid black;
