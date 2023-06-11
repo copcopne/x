@@ -15,6 +15,33 @@
             font-family: OldFace;
             src: url(src/font.otf);
         }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            background-color:whitesmoke;
+        }
+        a:link {
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color:whitesmoke;
+            background-color:transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color:darkgray;
+            background-color:transparent;
+            text-decoration: underline;
+        }
+        a:active {
+            color:darkslategray;
+            background-color:transparent;
+            text-decoration:underline;
+        }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,8 +51,19 @@
 </head>
 <body>
     <p style="font-size: 70px;font-family:'OldFace';" title="Apocalypse - Cigarettes After Sex">APOCALYPSE</p>
-    <p style="font-size: 25px;font-family:'OldFace';" title="Cigarettes After Sex">CIGARETTES AFTER SEX</p>
+    <p style="font-size: 25px;font-family:'OldFace';" title="Cigarettes After Sex"><a href="https://www.cigarettesaftersex.com/" target="_blank" title="Cigarettes After Sex's official website">CIGARETTES AFTER SEX</a></p>
     <p style="margin:50px"><iframe width="80%" height="600px"
     src="https://www.youtube.com/embed/Kmz5oyaIEMI?controls=0"></iframe></p>
+    <br><br><br>
+    <table style="font-size:200%;">
+        <th>hehe</th>
+        <th>1</th>
+        <th>2</th>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
 </body>
 </html>
