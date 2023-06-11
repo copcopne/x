@@ -38,3 +38,6 @@ a:active {
     background-color:transparent;
     text-decoration:underline;
 }
+* {
+    color:white;
+}
