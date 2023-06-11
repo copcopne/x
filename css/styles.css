@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+p {
+    align-items: center;
+    text-align: center;
+    color:white;
+    margin:0px;
+}
+@font-face {
+    font-family: OldFace;
+    src: url(src/font.otf);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    background-color:whitesmoke;
+}
+a:link {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:whitesmoke;
+    background-color:transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:darkgray;
+    background-color:transparent;
+    text-decoration: underline;
+}
+a:active {
+    color:darkslategray;
+    background-color:transparent;
+    text-decoration:underline;
+}
