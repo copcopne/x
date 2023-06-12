@@ -1,6 +1,11 @@
 body {
     background-color: black;
 }
+blockquote {
+    color:white;
+    margin:50px;
+    font-size:130%;
+}
 p {
     align-items: center;
     text-align: center;
@@ -38,6 +43,20 @@ a:active {
     background-color:transparent;
     text-decoration:underline;
 }
-* {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+}
+li {
+    float:left;
+}
+li a {
+    display:block;
     color:white;
+    text-align:center;
+    padding:10px;
+    text-decoration: none;
 }
