@@ -1,5 +1,9 @@
 body {
     background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:whitesmoke;
+    margin:0;
 }
 blockquote {
     color:white;
@@ -49,6 +53,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:transparent;
+    position:sticky;
+    position:-webkit-sticky;
+    top: 0;
 }
 li {
     float:left;
@@ -59,4 +66,24 @@ li a {
     text-align:center;
     padding:10px;
     text-decoration: none;
+}
+.navbar {
+    background-color:black;
+    overflow: hidden;
+}
+.navbar a {
+    float:left;
+    color:white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navbar a:hover {
+    background-color:white;
+    color:black;
+}
+.navbar a.active {
+    background-color:white;
+    color:black;
 }
